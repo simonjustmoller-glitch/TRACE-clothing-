@@ -25,7 +25,7 @@ const products = [
     category: "Bukser",
     color: "Oliven",
     price: 59.99,
-    image: "https://placehold.co/500x600/555744/ffffff?text=TRACE+PANTS"
+    image: ""image/cap.png""
   }
 ];
 
