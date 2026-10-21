@@ -4,28 +4,28 @@ const products = [
     category: "Cap",
     color: "Sort",
     price: 24.99,
-    image: "image/hue 2.png"
+    image: "hue 2.png"
   },
   {
     name: "TRACE Zip up",
     category: "Zip up",
     color: "Hvid",
     price: 54.99,
-    image: "image/sip op trace.png"
+    image: "sip op trace.png"
   },
   {
     name: "TRACE Tee",
     category: "T-shirt",
     color: "Hvid",
     price: 29.99,
-    image: "image/hvid tee.png"
+  image: "hvid tee.png"
   },
   {
     name: "TRACE Tote",
     category: "Tote",
     color: "Beige",
     price: 59.99,
-    image: "image/mule pose.png"
+   image: "mule pose.png"
   }
 ];
 
