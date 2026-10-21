@@ -25,7 +25,7 @@ const products = [
     category: "Bukser",
     color: "Oliven",
     price: 59.99,
-    image: ""image/cap.png""
+    image: "image/cap.png"
   }
 ];
 
