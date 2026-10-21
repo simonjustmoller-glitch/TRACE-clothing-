@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #f5f4ef;
+  color: #111;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 6%;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: 900;
+  letter-spacing: -2px;
+  color: #111;
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  gap: 22px;
+}
+
+nav a {
+  color: #111;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.hero {
+  background: #e7e6df;
+  padding: 90px 8%;
+  min-height: 360px;
+}
+
+.eyebrow {
+  font-size: 11px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: clamp(48px, 9vw, 100px);
+  line-height: 0.95;
+  letter-spacing: -6px;
+  max-width: 800px;
+}
+
+.button,
+button {
+  display: inline-block;
+  border: 0;
+  background: #111;
+  color: white;
+  padding: 14px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.ai-section,
+#shop {
+  padding: 55px 8%;
+}
+
+.ai-section {
+  background: #fff;
+}
+
+input {
+  display: block;
+  margin: 22px 0;
+  max-width: 100%;
+}
+
+#imagePreview img {
+  max-width: 220px;
+  max-height: 240px;
+  display: block;
+  margin: 20px 0;
+  object-fit: contain;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.product {
+  background: white;
+  padding: 12px;
+}
+
+.product img {
+  width: 100%;
+  height: 230px;
+  object-fit: contain;
+  background: #e9e7df;
+}
+
+.product h3 {
+  font-size: 14px;
+}
+
+.product p {
+  font-size: 13px;
+}
+
+footer {
+  padding: 28px 6%;
+  background: #111;
+  color: white;
+  font-size: 11px;
+}
+
+@media (max-width: 650px) {
+  header {
+    align-items: flex-start;
+    gap: 15px;
+    flex-direction: column;
+  }
+
+  nav {
+    gap: 14px;
+  }
+
+  .product-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  h1 {
+    letter-spacing: -3px;
+  }
+}

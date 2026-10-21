@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TRACE | Find din stil</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <a class="logo" href="#">TRACE®</a>
+    <nav>
+      <a href="#shop">SHOP</a>
+      <a href="#ai">AI FINDER</a>
+      <a href="#about">OM TRACE</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="about">
+      <p class="eyebrow">INDEPENDENT STREETWEAR</p>
+      <h1>FIND YOUR TRACE.</h1>
+      <p>Find dit næste fit med intelligent billedsøgning.</p>
+      <a class="button" href="#ai">PRØV AI FINDER</a>
+    </section>
+
+    <section id="ai" class="ai-section">
+      <h2>Find lignende tøj</h2>
+      <p>Upload et billede, og find lignende produkter i TRACE-kataloget.</p>
+
+      <input type="file" id="imageInput" accept="image/*">
+      <button id="searchButton">Find lignende styles</button>
+      <div id="imagePreview"></div>
+      <p id="searchStatus"></p>
+    </section>
+
+    <section id="shop">
+      <h2>Udvalgte styles</h2>
+      <div id="productGrid" class="product-grid"></div>
+    </section>
+  </main>
+
+  <footer>
+    TRACE® — PROTOTYPE · INGEN RIGTIGE KØB
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
