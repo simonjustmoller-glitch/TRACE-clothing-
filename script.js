@@ -1,31 +1,31 @@
 const products = [
   {
-    name: "Core Box Tee",
-    category: "T-shirt",
+    name: "TRACE Cap",
+    category: "Cap",
     color: "Sort",
     price: 24.99,
-    image: "https://placehold.co/500x600/222222/ffffff?text=TRACE+TEE"
+    image: "image/hue 2.png"
   },
   {
-    name: "Heavy Hoodie",
-    category: "Hoodie",
-    color: "Grå",
+    name: "TRACE Zip up",
+    category: "Zip up",
+    color: "Hvid",
     price: 54.99,
-    image: "https://placehold.co/500x600/888888/ffffff?text=TRACE+HOODIE"
+    image: "image/sip op trace.png"
   },
   {
-    name: "Afterhours Tee",
+    name: "TRACE Tee",
     category: "T-shirt",
     color: "Hvid",
     price: 29.99,
-    image: "https://placehold.co/500x600/e8e4d8/222222?text=AFTERHOURS"
+    image: "image/hvid tee.png"
   },
   {
-    name: "Utility Pants",
-    category: "Bukser",
-    color: "Oliven",
+    name: "TRACE Tote",
+    category: "Tote",
+    color: "Beige",
     price: 59.99,
-    image: "https://placehold.co/500x600/555744/ffffff?text=TRACE+PANTS"
+    image: "image/mule pose.png"
   }
 ];
 
