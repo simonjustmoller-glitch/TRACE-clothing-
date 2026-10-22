@@ -24,7 +24,7 @@ const products = [
     name: "TRACE Tote",
     category: "Tote",
     color: "Beige",
-    price: 59.99,
+    price: 599.99,
    image: "mule pose.png"
   }
 ];
