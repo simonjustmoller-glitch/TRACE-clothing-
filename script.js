@@ -3,28 +3,28 @@ const products = [
     name: "TRACE Cap",
     category: "Cap",
     color: "Sort",
-    price: 24.99,
+    price: 2499.99,
     image: "hue 2.png"
   },
   {
     name: "TRACE Zip up",
     category: "Zip up",
     color: "Hvid",
-    price: 54.99,
+    price: 5490.99,
     image: "sip op trace.png"
   },
   {
     name: "TRACE Tee",
     category: "T-shirt",
     color: "Hvid",
-    price: 29.99,
+    price: 2999.99,
   image: "hvid tee.png"
   },
   {
     name: "TRACE Tote",
     category: "Tote",
     color: "Beige",
-    price: 599.99,
+    price: 5999.99,
    image: "mule pose.png"
   }
 ];
