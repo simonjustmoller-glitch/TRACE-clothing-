@@ -17,14 +17,14 @@ const products = [
     name: "TRACE Tee",
     category: "T-shirt",
     color: "Hvid",
-    price: 2999.99,
+    price: 2959.99,
   image: "hvid tee.png"
   },
   {
     name: "TRACE Tote",
     category: "Tote",
     color: "Beige",
-    price: 5999.99,
+    price: 9.500.00,
    image: "mule pose.png"
   }
 ];
