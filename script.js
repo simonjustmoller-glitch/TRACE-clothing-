@@ -3,7 +3,7 @@ const products = [
     name: "TRACE Cap",
     category: "Cap",
     color: "Sort",
-    price: 2499.99,
+    price: 2450.99,
     image: "hue 2.png"
   },
   {
